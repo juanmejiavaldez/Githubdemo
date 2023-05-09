@@ -1,0 +1,73 @@
+h1{
+    color: blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.presentation .imagen{
+    width: 30%;
+    height: 300px;
+    border: 1px solid #ccc;
+    float: left;
+}
+.description{
+    border:1px solid #ccc;
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.presentation .title{
+    color: blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.presentation .textdescp{
+    width: 70%;
+    height: auto;
+    margin-top: 1%;
+}
+.headertop{
+    background-color:blueviolet;
+    height: 150px;
+    width: 99%;
+    padding: 10px;
+    
+}
+.headlogo{
+    height: 70px;
+    width:100px;
+    border: 1px solid #ccc;
+    vertical-align:baseline;
+}
+.headmenu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100;
+    float: right;
+}
+
+section{
+    padding: 5%;
+    display: block;
+    width: 100%;
+    height: auto;
+    /*border: 1px solid #ccc;*/
+    float: left ;
+}
+hr{
+    width:40%;
+    float: left;
+    margin-left:5%;
+}
+.userSkills{
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin: 100px;
+    border: 1px solid #ccc;
+}
+.projects{
+   padding: 2% 5%;
+}
+
+.projects p{
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function checkdata(){
+            var username = document.getElementById("name");
+            var email_address = documnent.getElementById("email");
+
+            if(username == ""){
+                alert("Please enter the name");
+                username.focus();
+                return false;
+            }
+            if(email_address == ""){
+                alert("Please enter the email");
+                email_address.focus();
+                return false;
+            }
+            return true;
+
+        }
+
+    </script>
+</head>
+<body>
+        <form action="#" onsubmit="return checkdata()">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+       
+</body>
+</html>
